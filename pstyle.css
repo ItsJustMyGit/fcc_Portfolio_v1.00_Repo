@@ -240,124 +240,81 @@ p{
 }
 
 .page-wrapper .project-section .project-content .p-content1{
-	width: 100%;
+	width: 60%;
 	height: auto;
-	margin-top: 3em;
-	padding-top: 1.5rem;
+	margin-top: 13vh;
+	margin-left: 35vw;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
+	border: 1px solid red;
 }
 
 .page-wrapper .project-section .project-content .p-content1 ul{
 	list-style-type: none;
 	display: flex;
+	justify-content: center;
 }
 
 .page-wrapper .project-section .project-content .p-content1 ul li{
 	color: #fff;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	font-family: "Cuprum",sans-serif;
-	padding: 0.75rem;
+	margin-left: 1rem;
 
 }
 
-
-
+	
 .page-wrapper .project-section .project-content .p-tilecontainer{
-	width: 100%;
-	height: 21em;
+	width: 60%;
+	height:  auto;
+	margin-left: 35vw;
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
+	border: 1px solid red;
 }
 
 
 
 
-
-
-.page-wrapper .project-section .project-content .p-tilecontainer .p-tilecontainer-sub1{
-	width: 100%;
-	height: 12em;
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-start;
-	padding-right: 0;
-	padding-top: 2em;
-
-}
-
-.page-wrapper .project-section .project-content .p-tilecontainer .p-tilecontainer-sub1 .project-tile{
-	width: 4.5rem;
-	height: 4.5rem;
+.page-wrapper .project-section .project-content .p-tilecontainer .project-tile{
+	width: 23em;
+	height: 5.5em;
 	background-color: rgba(128,128,128,0.5);
 	border: 2px solid black;
-	margin-right: 2em;
-	box-shadow: 0 0 0.3rem 0.2rem orange;
+	box-shadow: 0 0 0.3rem 0.2rem yellow;
+	margin: 1rem;
 
 }
 
-.page-wrapper .project-section .project-content .p-tilecontainer .p-tilecontainer-sub1 .project-tile:hover{
+.page-wrapper .project-section .project-content .p-tilecontainer .project-tile:hover{
 	transform: scale(1.05);
 }
 
 
-.page-wrapper .project-section .project-content .p-tilecontainer .p-tilecontainer-sub1 .project-tile img{
+.page-wrapper .project-section .project-content .p-tilecontainer .project-tile img{
 	width: 100%;
 	height: 100%;
 }
-
-
-
-.page-wrapper .project-section .project-content .p-tilecontainer .p-tilecontainer-sub2{
-	width: 100%;
-	height: 12em;
-	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-	padding-left: 2em;
-	padding-top: 2em;
-}
-
-.page-wrapper .project-section .project-content .p-tilecontainer .p-tilecontainer-sub2 .project-tile{
-	width: 70px;
-	height: 70px;
-	background-color: rgba(128,128,128,0.5);
-	border: 2px solid black;
-	margin-left: 2em;
-	box-shadow: 0 0 0.3rem 0.2rem orange;
-}
-
-.page-wrapper .project-section .project-content .p-tilecontainer .p-tilecontainer-sub2 .project-tile:hover{
-	transform: scale(1.05);
-}
-
-.page-wrapper .project-section .project-content .p-tilecontainer .p-tilecontainer-sub2 .project-tile img{
-	width: 100%;
-	height: 100%;
-}
-
-
-
 
 
 
 
 .page-wrapper .project-section .project-content .p-btn-container{
 	width: 100%;
-	height: 5em;
+	height: auto;
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
-	padding-top: 0.3rem;
-	padding-left: 7.7em;
-	box-shadow: 0.2rem 0.2rem 0.1rem rgba(125, 240, 230, 0.7);
+	padding-left: 9vw;
+	border: 1px solid red;
+	margin-top: 33.5vh;
 }
 
 
 
 .page-wrapper .project-section .project-content .p-btn-container .btn{
-	width: 10rem;
+	width: 14vw;
 	height: 2.5rem;
 	background-color: #f32b39;
 	color: #fff;
@@ -375,14 +332,27 @@ p{
 
 .page-wrapper .project-section .project-content .p-btn-container .btn:hover{
 	transform: scale(1.05);
-	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(170, 185, 245, 0.7);
+	box-shadow: -0.1rem 0.1rem 0.1rem 0.1rem yellow;
+	cursor: pointer;
 }
 
 
 
 
+
 @media (max-width: 560px){
-	.page-wrapper .project-section .project-content{
+	.page-wrapper .project-section{
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: #86a6d2;
+	background-image: url(https://raw.githubusercontent.com/ItsJustMyGit/fcc_Portfolio_v1.00_Repo/main/image/photo3p2.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.page-wrapper .project-section .project-content{
 	width: 100%;
 	height: auto;
 	
@@ -391,6 +361,7 @@ p{
 .page-wrapper .project-section .project-content .p-header{
 	width: 100%;
 	height: auto;
+	padding: 2em;
 }
 
 .page-wrapper .project-section .project-content .p-header h2{
@@ -398,113 +369,87 @@ p{
 }
 
 .page-wrapper .project-section .project-content .p-content1{
-	width: 100%;
+	width: 60%;
 	height: auto;
+	margin-top: 13vh;
+	margin-left: 35vw;
 	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
-	margin-top: 0;
-	padding-top: 2.5em;
+	justify-content: flex-start;
+	border: 1px solid red;
 }
 
 .page-wrapper .project-section .project-content .p-content1 ul{
 	list-style-type: none;
 	display: flex;
+	justify-content: center;
 }
 
 .page-wrapper .project-section .project-content .p-content1 ul li{
 	color: #fff;
-	font-size: 0.9rem;
+	font-size: 0.7rem;
 	font-family: "Cuprum",sans-serif;
-	padding: 0.25rem;
+	margin: 0;
 
 }
 
-
+	
 .page-wrapper .project-section .project-content .p-tilecontainer{
-	width: 100%;
-	height: 10em;
+	width: 60%;
+	height:  auto;
+	margin-left: 35vw;
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: flex-end;
-}
-
-.page-wrapper .project-section .project-content .p-tilecontainer .p-tilecontainer-sub1{
-	width: 100%;
-	height: 6em;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: flex-end;
-
+	justify-content: flex-start;
+	align-items: flex-start;
+	border: 1px solid red;
 }
 
 
-.page-wrapper .project-section .project-content .p-tilecontainer .p-tilecontainer-sub1 .project-tile{
-	width: 12rem;
-	height: 2.25rem;
+
+
+.page-wrapper .project-section .project-content .p-tilecontainer .project-tile{
+	width: 23em;
+	height: 5.5em;
 	background-color: rgba(128,128,128,0.5);
 	border: 2px solid black;
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
+	box-shadow: 0 0 0.3rem 0.2rem yellow;
+	margin: 1rem;
+
 }
 
-.page-wrapper .project-section .project-content .p-tilecontainer .p-tilecontainer-sub1 .project-tile img{
+.page-wrapper .project-section .project-content .p-tilecontainer .project-tile:hover{
+	transform: scale(1.05);
+}
+
+
+.page-wrapper .project-section .project-content .p-tilecontainer .project-tile img{
 	width: 100%;
 	height: 100%;
 }
 
-
-
-
-
-.page-wrapper .project-section .project-content .p-tilecontainer .p-tilecontainer-sub2{
-	width: 100%;
-	height: 6em;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: center;
-}
-
-.page-wrapper .project-section .project-content .p-tilecontainer .p-tilecontainer-sub2 .project-tile{
-	width: 12rem;
-	height: 2.25rem;
-	background-color: rgba(128,128,128,0.5);
-	border: 2px solid black;
-	margin-left: 5em;
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
-}
-
-.page-wrapper .project-section .project-content .p-tilecontainer .p-tilecontainer-sub2 .project-tile img{
-	width: 100%;
-	height: 100%;
-}
 
 
 
 .page-wrapper .project-section .project-content .p-btn-container{
 	width: 100%;
-	height: 15em;
+	height: auto;
 	display: flex;
 	justify-content: flex-start;
-	align-items: flex-end;
-	margin: 0;
+	align-items: flex-start;
+	padding-left: 9vw;
+	border: 1px solid red;
+	margin-top: 33.5vh;
 }
 
 
 
 .page-wrapper .project-section .project-content .p-btn-container .btn{
-	width: 7rem;
+	width: 14vw;
 	height: 2.5rem;
 	background-color: #f32b39;
 	color: #fff;
-	font-family: "Recursive",sans-serif;
+	font-family: "Recursive",sans-serif; 
 	padding: 0.3rem;
 	border-radius: 5px;
-	display: block;
 }
 
 .page-wrapper .project-section .project-content .p-btn-container .btn a{
@@ -514,12 +459,24 @@ p{
 	
 }
 
-.page-wrapper .project-section .project-content  .p-btn-container .btn:hover{
+.page-wrapper .project-section .project-content .p-btn-container .btn:hover{
 	transform: scale(1.05);
-	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(170, 185, 245, 0.7);
+	box-shadow: -0.1rem 0.1rem 0.1rem 0.1rem yellow;
+	cursor: pointer;
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -606,7 +563,25 @@ p{
 
 
 @media (max-width: 560px){
-	.page-wrapper .contact-section .contact-content{
+
+	.page-wrapper .contact-section{
+	margin: 0;
+	width: 100%;
+	height: auto;
+	background-color: gold;
+	background-image: url(https://raw.githubusercontent.com/ItsJustMyGit/fcc_Portfolio_v1.00_Repo/main/image/photo4p2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px	solid brown;
+	padding-bottom: 3em;
+}
+
+
+
+.page-wrapper .contact-section .contact-content{
 	width: 100%;
 	height: auto;
 }
@@ -614,34 +589,37 @@ p{
 .page-wrapper .contact-section .contact-content .c-header{
 	width: 100%;
 	height: auto;
-	padding-top: 2em;
-	padding-left: 2em;
-	margin-top: 3.1em;
+	margin: 0;
+	border: 1px solid red;
 }
 
 .page-wrapper .contact-section .contact-content .c-header h2{
 	color: #5d3838;
 }
 
+
 .page-wrapper .contact-section .contact-content .c-icons{
 	width: 100%;
-	height: 20em;
+	height: 7em;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: flex-end;
+	border: 1px solid red;
 }
 
 .page-wrapper .contact-section .contact-content .c-icons .svg-holder{
 	width: 150px;
 	height: 50px;
 	background-color: pink;
-	border: 2px solid red;
+	border: 2px solid blue;
 }
 
 
 .page-wrapper .contact-section .contact-content .c-titles{
 	width: 100%;
-	height: 5em;
+	height: 2em;
+	margin: 0;
+	border: 1px solid blue;
 }
 
 .page-wrapper .contact-section .contact-content .c-titles ul{
