@@ -463,18 +463,6 @@ p{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .page-wrapper .contact-section{
 	margin: 0;
 	width: 100%;
@@ -569,7 +557,6 @@ p{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px	solid brown;
 	padding-bottom: 3em;
 }
 
@@ -584,7 +571,6 @@ p{
 	width: 100%;
 	height: auto;
 	margin: 0;
-	border: 1px solid red;
 }
 
 .page-wrapper .contact-section .contact-content .c-header h2{
@@ -598,14 +584,12 @@ p{
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	border: 1px solid red;
 }
 
 .page-wrapper .contact-section .contact-content .c-icons .svg-holder{
 	width: 150px;
 	height: 50px;
 	background-color: pink;
-	border: 2px solid blue;
 }
 
 
@@ -613,7 +597,6 @@ p{
 	width: 100%;
 	height: 2em;
 	margin: 0;
-	border: 1px solid blue;
 }
 
 .page-wrapper .contact-section .contact-content .c-titles ul{
